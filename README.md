@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DigiEmu Landing Page
 
-## Getting Started
+Official landing page for **DigiEmu** — a deterministic knowledge infrastructure for reproducible, verifiable and auditable AI decisions.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Purpose
+
+DigiEmu introduces a verification layer for AI-assisted decisions.
+
+Instead of relying on logs or post-hoc explanations, DigiEmu enables:
+
+- deterministic reconstruction of decision states  
+- independent verification of state transitions  
+- reproducible execution outcomes  
+- auditable AI decision chains  
+
+---
+
+## Core Concepts
+
+### DigiEmu Core
+Defines deterministic knowledge boundaries:
+
+- Canonical JSON snapshots  
+- Inside-hash vs outside-hash separation  
+- SHA-256 state identity  
+- Reproducible state definition  
+
+### DigiEmu Proof
+Verifies execution integrity:
+
+- Replay verification  
+- Receipt continuity  
+- Chain validation  
+- PASS / FAIL verification output  
+
+---
+
+## Why It Matters
+
+Modern AI systems operate in regulated and high-risk environments.
+
+DigiEmu enables:
+
+- **Verifiable AI decisions**  
+- **Audit-ready execution evidence**  
+- **Deterministic replay of decisions**  
+- **Alignment with EU AI Act requirements**  
+
+---
+
+## Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- YAML-driven content system
+- Vercel deployment
+
+---
+
+## Project Structure
+
+```txt
+app/
+  page.tsx
+  layout.tsx
+
+content/
+  site.yaml
+
+lib/
+  site.ts
+
+public/
+  logo-light.webp
+  og-core.png
+  digiemu-core-proof-brief.pdf
+Content System
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# All page content is defined in:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+content/site.yaml
+```
+Loaded via:
+```text
+lib/site.ts
+```
+This separates content from UI logic.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Local Development
+```text
+npm install
+npm run dev
+```
+Open:
+```text
+http://localhost:3000
+```
+---
+Build
+```text
+npm run build
+```
+# Deployment
 
-## Learn More
+Recommended:
 
-To learn more about Next.js, take a look at the following resources:
+Vercel
+Domain: https://digiemu.ch
+Branding
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
+## Built under:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Baumgartner Digital Infrastructure
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Contact
+```text
+digiemu99@gmail.com
+```
