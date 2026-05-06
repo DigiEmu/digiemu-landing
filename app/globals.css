@@ -24,3 +24,73 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  nav,
+  a[href^="mailto:"],
+  a[download],
+  button {
+    display: none !important;
+  }
+
+  main,
+  section,
+  div {
+    background: #ffffff !important;
+    box-shadow: none !important;
+  }
+
+  section {
+    padding: 24px 0 !important;
+    page-break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: #000000 !important;
+  }
+
+  h1 {
+    font-size: 36pt !important;
+  }
+
+  h2 {
+    font-size: 22pt !important;
+    margin-top: 24px !important;
+  }
+
+  h3 {
+    font-size: 14pt !important;
+  }
+
+  p,
+  li,
+  span {
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+    border: 1px solid #dddddd !important;
+    padding: 12px !important;
+    color: #000000 !important;
+    background: #f8f8f8 !important;
+  }
+
+  svg,
+  img {
+    max-width: 120px !important;
+  }
+
+  @page {
+    margin: 18mm;
+  }
+}
