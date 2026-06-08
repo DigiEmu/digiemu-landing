@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -60,17 +61,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-     <body className={inter.className}>
-  <script
-    dangerouslySetInnerHTML={{
-      __html: `
-        console.log("%cDigiEmu", "font-size:48px;font-weight:800;color:#020617;");
-        console.log("%cDeterministic Knowledge Infrastructure", "font-size:16px;color:#475569;");
-        console.log("%cSame input → same reconstructed state → same hash.", "font-size:14px;color:#0f172a;");
-        console.log("%cVerification layer for AI decisions. Built by Baumgartner Digital Infrastructure.", "font-size:13px;color:#64748b;");
-      `,
-    }}
-  />
+    <body className={inter.className}>
+  <Script id="digiemu-console-brand" strategy="afterInteractive">
+    {`
+      console.log("%cDigiEmu", "font-size:48px;font-weight:800;color:#020617;");
+      console.log("%cDeterministic Knowledge Infrastructure", "font-size:16px;color:#475569;");
+      console.log("%cSame input → same reconstructed state → same hash.", "font-size:14px;color:#0f172a;");
+      console.log("%cBuilt by Baumgartner Digital Infrastructure", "font-size:13px;color:#64748b;");
+    `}
+  </Script>
   {children}
 </body>
     </html>

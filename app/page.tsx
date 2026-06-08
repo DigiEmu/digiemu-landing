@@ -113,6 +113,8 @@ export default function HomePage() {
 
       <ProofDemo data={data} />
       <ProjectFit data={data} />
+      <ValidationTracks data={data} />
+      <TechnicalReview data={data} />
       <section className="px-6 py-16 md:px-12 lg:px-20">
         <div className="mx-auto max-w-7xl">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">
@@ -202,7 +204,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <SeoContent data={data} />
+      
     </main>
   );
 }
@@ -242,6 +244,64 @@ function ProofDemo({ data }: { data: any }) {
             </span>
           ))}
         </div>
+      </div>
+    </section>
+  );
+}
+
+function ValidationTracks({ data }: { data: any }) {
+  return (
+    <section className="px-6 py-16 md:px-12 lg:px-20">
+      <div className="mx-auto max-w-7xl rounded-[2rem] bg-white/55 p-8 shadow-[12px_12px_32px_#cbd2dc,-12px_-12px_32px_#ffffff] md:p-12">
+        <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">
+          {data.validation_tracks.label}
+        </p>
+
+        <h2 className="mt-4 max-w-4xl text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl">
+          {data.validation_tracks.title}
+        </h2>
+
+        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          {data.validation_tracks.cards.map((card: any) => (
+            <div
+              key={card.title}
+              className="rounded-3xl bg-[#eef2f6] p-6 shadow-[inset_5px_5px_12px_#d0d7e0,inset_-5px_-5px_12px_#ffffff]"
+            >
+              <h3 className="font-semibold text-slate-950">{card.title}</h3>
+              <p className="mt-3 text-sm leading-6 text-slate-600">
+                {card.text}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function TechnicalReview({ data }: { data: any }) {
+  return (
+    <section className="px-6 py-16 md:px-12 lg:px-20">
+      <div className="mx-auto max-w-5xl rounded-[2rem] bg-slate-950 p-8 text-center text-white shadow-[16px_16px_40px_#c7ced8,-16px_-16px_40px_#ffffff] md:p-14">
+        <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+          {data.technical_review.label}
+        </p>
+
+        <h2 className="mt-5 text-4xl font-semibold tracking-tight md:text-5xl">
+          {data.technical_review.title}
+        </h2>
+
+        <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+          {data.technical_review.text}
+        </p>
+
+        <a
+          href={data.technical_review.cta.href}
+          className="mt-8 inline-flex items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 text-sm font-semibold text-slate-950"
+        >
+          {data.technical_review.cta.label}
+          <ArrowRight className="h-4 w-4" />
+        </a>
       </div>
     </section>
   );

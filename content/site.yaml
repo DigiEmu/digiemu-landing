@@ -1,13 +1,15 @@
 site:
   name: "DigiEmu"
   tagline: "Deterministic Knowledge Infrastructure"
-  contact_email: "digimu99@gmail.com"
+  contact_email: "digiemu99@gmail.com"
 
 seo:
   title: "DigiEmu – Applied Verification Infrastructure for AI Governance"
   description: "DigiEmu Core & Proof is a deterministic verification concept for reproducible, verifiable and auditable AI-assisted decision states."
 
 navigation:
+  - label: "Onepager"
+    href: "/"
   - label: "Core"
     href: "/core"
   - label: "Proof"
@@ -15,7 +17,7 @@ navigation:
   - label: "Use Cases"
     href: "/use-cases"
   - label: "Contact"
-    href: "#contact"
+    href: "/#contact"
 
 hero:
   eyebrow: "Prepared for BFH / Innosuisse project discussion"
@@ -69,6 +71,27 @@ project_fit:
     - title: "Market relevance"
       text: "Prepare DigiEmu for practical adoption as lightweight verification infrastructure for organizations using AI-assisted decisions."
 
+validation_tracks:
+  label: "Current validation tracks"
+  title: "Concrete partner-facing validation paths."
+  cards:
+    - title: "GazaCare AI"
+      text: "Medical AI traceability: decision fingerprint, QR/hash evidence and verifiable recommendation history."
+    - title: "Public Sector / CO₂"
+      text: "Decision-state reconstruction for public-sector workflows, climate reporting and accountable administrative AI."
+    - title: "TBN"
+      text: "Complementary trust architecture: TBN verifies agent trust; DigiEmu reconstructs decision state."
+    - title: "Antifragile.AI"
+      text: "Potential governance interoperability: DigiEmu as deterministic evidence layer for AI approval workflows."
+
+technical_review:
+  label: "Core 2.0 draft.4"
+  title: "Technical review candidate for BFH / partner feedback."
+  text: "DigiEmu Core 2.0 draft.4 is positioned as a partner-testable milestone for reviewing deterministic snapshots, replay verification, schema boundaries, conformance reports and audit evidence bundles."
+  cta:
+    label: "Request technical review package"
+    href: "mailto:digiemu99@gmail.com"
+
 sections:
   problem:
     label: "Research problem"
@@ -118,8 +141,8 @@ contact:
   title: "Discuss a BFH / Innosuisse project setup."
   text: "DigiEmu can start as one applied research workflow: one decision boundary, one verification prototype, one evaluation report and one audit-ready evidence bundle."
   cta:
-    label: "digiemu99@gamil.com"
-    href: "mailto:digiemu99@gamil.com"
+    label: "digiemu99@gmail.com"
+    href: "mailto:digiemu99@gmail.com"
 
 seo_content:
   label: "Applied AI governance infrastructure"
