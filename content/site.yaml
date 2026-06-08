@@ -1,11 +1,11 @@
 site:
   name: "DigiEmu"
   tagline: "Deterministic Knowledge Infrastructure"
-  contact_email: "digiemu99@gmail.com"
+  contact_email: "digimu99@gmail.com"
 
 seo:
-  title: "DigiEmu – Verifiable AI Systems"
-  description: "Deterministic knowledge infrastructure for reproducible and auditable AI decisions."
+  title: "DigiEmu – Applied Verification Infrastructure for AI Governance"
+  description: "DigiEmu Core & Proof is a deterministic verification concept for reproducible, verifiable and auditable AI-assisted decision states."
 
 navigation:
   - label: "Core"
@@ -18,76 +18,91 @@ navigation:
     href: "#contact"
 
 hero:
-  eyebrow: "Verifiable AI infrastructure for regulated systems"
-  title: "A verification layer for AI decisions."
-  text: "DigiEmu makes AI-assisted decisions reproducible, verifiable and auditable by preserving deterministic knowledge states, execution receipts and replayable proof chains."
+  eyebrow: "Prepared for BFH / Innosuisse project discussion"
+  title: "Applied verification infrastructure for trustworthy AI decisions."
+  text: "DigiEmu Core & Proof proposes a deterministic verification layer for AI governance: reproducible decision states, execution receipts, replay verification and audit-ready evidence bundles."
   primary_cta:
-    label: "Verify your AI system"
+    label: "Discuss research collaboration"
     href: "mailto:digiemu99@gmail.com"
   secondary_cta:
-    label: "Explore Proof"
+    label: "View Proof Concept"
     href: "/proof"
   download_cta:
     label: "Download Technical Brief"
     href: "/digiemu-core-proof-brief.pdf"
 
 verification_flow:
-  title: "Deterministic verification flow"
+  title: "Snapshot / Replay / Verify"
   steps:
-    - "Intent envelope"
-    - "Policy check"
-    - "Agent/tool action"
-    - "Execution receipt"
-    - "Canonical snapshot"
-    - "SHA-256 hash"
-    - "Replay verifier: PASS / FAIL"
+    - "Define decision boundary"
+    - "Capture canonical snapshot"
+    - "Attach execution receipt"
+    - "Calculate state hash"
+    - "Replay verification"
+    - "Generate PASS / FAIL evidence"
+    - "Prepare audit-ready bundle"
 
 proof_demo:
-  label: "Proof demo"
+  label: "Proof concept"
   title: "From AI decision to verifiable evidence."
-  input: "patient reports chest pain and shortness of breath"
-  state: "triage_level: high_risk"
+  input: "AI-assisted decision input"
+  state: "canonical_decision_state: reproducible"
   hash: "sha256: 8f4c...a91e"
   result: "PASS"
   steps:
     - "Input captured"
-    - "Policy applied"
+    - "Boundary defined"
     - "Canonical state created"
     - "Hash calculated"
     - "Replay verifier confirms integrity"
 
+project_fit:
+  label: "BFH / Innosuisse project fit"
+  title: "From concept to validated applied research prototype."
+  cards:
+    - title: "Scientific contribution"
+      text: "Formalize deterministic knowledge-state boundaries, canonical snapshots and replay-verifiable transition chains for AI governance."
+    - title: "Applied prototype"
+      text: "Develop DigiEmu Proof as a working verification prototype that can generate PASS / FAIL evidence reports."
+    - title: "Use case validation"
+      text: "Evaluate the approach in regulated workflows such as medical AI, compliance, finance or public-sector AI governance."
+    - title: "Market relevance"
+      text: "Prepare DigiEmu for practical adoption as lightweight verification infrastructure for organizations using AI-assisted decisions."
+
 sections:
   problem:
-    label: "The problem"
-    title: "Logs show what was recorded. DigiEmu verifies what can be reconstructed."
-    text: "Modern AI governance often depends on explanations, logs and policy references. High-risk systems need deterministic evidence that a decision state can be reproduced and verified independently."
+    label: "Research problem"
+    title: "AI systems are documented, but their decision states are rarely reconstructable."
+    text: "Regulated AI workflows need evidence that can be independently checked. Logs, screenshots and explanations are useful, but they do not automatically prove that a specific AI-assisted decision state can be reconstructed, replayed and verified."
 
   core:
     id: "core"
     label: "DigiEmu Core"
-    title: "The standard for deterministic knowledge boundaries."
-    text: "Core describes how AI-related knowledge states are captured, canonicalized and separated from non-deterministic metadata."
+    title: "A deterministic standard for AI decision-state boundaries."
+    text: "Core describes how AI-related knowledge states are captured, canonicalized and separated from non-deterministic metadata. It defines what must be reproducible, what stays outside the hash and how AI governance evidence can be structured."
     items:
       - "Canonical JSON snapshots"
       - "Inside-hash vs outside-hash boundary"
       - "SHA-256 state identity"
+      - "Replay-ready decision states"
       - "EU AI Act traceability framing"
 
   proof:
     id: "proof"
     label: "DigiEmu Proof"
-    title: "The verifier for deterministic execution integrity."
-    text: "Proof checks whether snapshots, receipts and transition chains compose into a verifiable result."
+    title: "A minimal verifier for deterministic execution integrity."
+    text: "Proof checks whether snapshots, receipts and transition chains compose into a verifiable result. The output is intentionally concrete: PASS or FAIL."
     items:
       - "Replay verification"
       - "Receipt continuity"
       - "Tamper detection"
       - "Negative tests for broken chains"
+      - "Audit-ready evidence reports"
 
 usecases:
   id: "usecases"
-  label: "Use cases"
-  title: "Built for domains where decisions must be trusted after they happen."
+  label: "Application fields"
+  title: "Designed for regulated workflows where decisions must remain verifiable."
   cases:
     - title: "Medical AI"
       text: "Triage, risk assessment and human approval boundaries."
@@ -95,29 +110,29 @@ usecases:
       text: "Reconstructable decision evidence for regulated workflows."
     - title: "Finance"
       text: "Auditable policy decisions and transaction-state verification."
-    - title: "Governance"
-      text: "Traceable AI systems aligned with documentation duties."
+    - title: "Public-sector AI"
+      text: "Traceable AI systems for accountable administrative decision support."
 
 contact:
   id: "contact"
-  title: "Start with one verifiable case."
-  text: "One workflow, one state boundary, one receipt chain and one independent verification report."
+  title: "Discuss a BFH / Innosuisse project setup."
+  text: "DigiEmu can start as one applied research workflow: one decision boundary, one verification prototype, one evaluation report and one audit-ready evidence bundle."
   cta:
-    label: "digiemu99@gmail.com"
-    href: "mailto:digiemu99@gmail.com"
+    label: "digiemu99@gamil.com"
+    href: "mailto:digiemu99@gamil.com"
 
 seo_content:
-  label: "Verifiable AI infrastructure"
-  title: "What is DigiEmu?"
+  label: "Applied AI governance infrastructure"
+  title: "DigiEmu as a candidate applied research project"
   paragraphs:
-    - "DigiEmu is a deterministic knowledge infrastructure designed to make AI decisions reproducible, verifiable and auditable. Instead of relying only on logs or post-hoc explanations, DigiEmu defines a canonical state boundary that can be reconstructed and checked independently."
-    - "For regulated and high-risk AI systems, it is not enough to describe what a system intended to do. Organizations need evidence that shows what actually happened, which state was used and whether the transition between states can be verified."
-    - "DigiEmu Core defines reproducible knowledge states and separates deterministic data from non-deterministic metadata. DigiEmu Proof verifies state transitions through canonical snapshots, execution receipts and deterministic replay."
-    - "This approach supports AI governance, auditability and documentation duties under emerging regulatory frameworks such as the EU AI Act. DigiEmu helps organizations move from documentation toward verifiable evidence."
+    - "DigiEmu Core & Proof is designed as deterministic knowledge infrastructure for reproducible, verifiable and auditable AI-assisted decisions. Instead of relying only on logs or post-hoc explanations, DigiEmu defines canonical decision-state boundaries that can be reconstructed and checked independently."
+    - "The project is especially relevant for regulated and high-risk AI workflows, where organizations need evidence that shows what actually happened, which state was used and whether the transition between states can be verified."
+    - "As an applied research project, DigiEmu can combine software engineering, formal verification concepts, AI governance requirements and practical evaluation in real-world workflows."
+    - "The intended outcome is a lightweight verification prototype, technical documentation, evaluation results and a reproducible evidence model that can support future AI governance and compliance processes."
   topics:
-    - title: "Deterministic replay"
-      text: "The same input and the same state boundary should reconstruct the same state and produce the same hash."
-    - title: "AI governance"
-      text: "DigiEmu creates structured evidence for reviewing AI-assisted decisions in regulated workflows."
-    - title: "Auditability"
-      text: "Verification reports make decision chains inspectable, reproducible and easier to trust."
+    - title: "Research question"
+      text: "Can AI-assisted decision states be captured, replayed and verified through deterministic snapshots and execution receipts?"
+    - title: "Prototype outcome"
+      text: "A working DigiEmu Proof demonstrator with PASS / FAIL reports and tamper-detection examples."
+    - title: "Transfer potential"
+      text: "A practical verification layer for organizations that need trustworthy AI governance evidence."

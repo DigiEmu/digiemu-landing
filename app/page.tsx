@@ -112,7 +112,7 @@ export default function HomePage() {
       </section>
 
       <ProofDemo data={data} />
-
+      <ProjectFit data={data} />
       <section className="px-6 py-16 md:px-12 lg:px-20">
         <div className="mx-auto max-w-7xl">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">
@@ -297,6 +297,37 @@ function SeoContent({ data }: { data: any }) {
               <h3 className="font-semibold text-slate-950">{topic.title}</h3>
               <p className="mt-3 text-sm leading-6 text-slate-600">
                 {topic.text}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ProjectFit({ data }: { data: any }) {
+  return (
+    <section className="px-6 py-16 md:px-12 lg:px-20">
+      <div className="mx-auto max-w-7xl rounded-[2rem] bg-slate-950 p-8 text-white shadow-[16px_16px_40px_#c7ced8,-16px_-16px_40px_#ffffff] md:p-12">
+        <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+          {data.project_fit.label}
+        </p>
+
+        <h2 className="mt-4 max-w-4xl text-4xl font-semibold tracking-tight md:text-5xl">
+          {data.project_fit.title}
+        </h2>
+
+        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          {data.project_fit.cards.map((card: any) => (
+            <div
+              key={card.title}
+              className="rounded-3xl bg-white/10 p-6"
+            >
+              <h3 className="font-semibold text-white">{card.title}</h3>
+
+              <p className="mt-3 text-sm leading-6 text-slate-300">
+                {card.text}
               </p>
             </div>
           ))}
