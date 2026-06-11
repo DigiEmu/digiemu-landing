@@ -6,6 +6,8 @@ const links = [
   { label: "Enterprise", href: "/enterprise" },
   { label: "Licensing", href: "/licensing" },
   { label: "Company", href: "/company" },
+  { label: "GitHub", href: "https://github.com/DigiEmu" },
+  { label: "DigiEmu.com", href: "https://digiemu.com" },
   { label: "Impressum", href: "/impressum" },
   { label: "Privacy", href: "/privacy" },
 ];
@@ -23,15 +25,31 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-wrap gap-4 text-sm">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="hover:text-slate-950"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {links.map((link) => {
+              const isExternal = link.href.startsWith("http");
+              if (isExternal) {
+                return (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-slate-950"
+                  >
+                    {link.label}
+                  </a>
+                );
+              }
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="hover:text-slate-950"
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
           </div>
         </div>
 
