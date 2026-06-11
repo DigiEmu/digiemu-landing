@@ -111,6 +111,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      <OpenStandardSection data={data} />
       <ProofDemo data={data} />
       <ProjectFit data={data} />
       <ValidationTracks data={data} />
@@ -206,6 +207,26 @@ export default function HomePage() {
 
       
     </main>
+  );
+}
+
+function OpenStandardSection({ data }: { data: any }) {
+  return (
+    <section className="px-6 py-10 md:px-12 lg:px-20">
+      <div className="mx-auto max-w-7xl rounded-[2rem] bg-slate-950 p-8 text-white shadow-[16px_16px_40px_#c7ced8,-16px_-16px_40px_#ffffff] md:p-12">
+        <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+          {data.open_standard.label}
+        </p>
+
+        <h2 className="mt-4 max-w-4xl text-4xl font-semibold tracking-tight md:text-5xl">
+          {data.open_standard.title}
+        </h2>
+
+        <p className="mt-6 max-w-4xl text-lg leading-8 text-slate-300">
+          {data.open_standard.text}
+        </p>
+      </div>
+    </section>
   );
 }
 

@@ -8,16 +8,16 @@ seo:
   description: "DigiEmu Core & Proof is a deterministic verification concept for reproducible, verifiable and auditable AI-assisted decision states."
 
 navigation:
-  - label: "Onepager"
-    href: "/"
   - label: "Core"
     href: "/core"
   - label: "Proof"
     href: "/proof"
   - label: "Use Cases"
     href: "/use-cases"
-  - label: "Contact"
-    href: "/#contact"
+  - label: "Licensing"
+    href: "/licensing"
+  - label: "Company"
+    href: "/company"
 
 hero:
   eyebrow: "Prepared for BFH / Innosuisse project discussion"
@@ -143,6 +143,16 @@ contact:
   cta:
     label: "contact@digiemu.ch"
     href: "mailto:contact@digiemu.ch"
+
+open_standard:
+  label: "Open Standard. Commercial Infrastructure."
+  title: "Transparent core standard. Professional enterprise adoption."
+  text: "DigiEmu separates the public standard layer from commercial enterprise adoption. The Core specification is designed to be transparent, reviewable and interoperable. Baumgartner Digital Infrastructure provides the commercial infrastructure required for secure enterprise deployment, conformance testing, audit reporting, integration and support."
+
+company:
+  name: "Baumgartner Digital Infrastructure"
+  short: "BDI"
+  text: "Baumgartner Digital Infrastructure develops and operates commercial infrastructure around the DigiEmu verification ecosystem, including Secure tooling, Enterprise adoption, Conformance Testing, Audit Reporting and regulated-sector integration support."
 
 seo_content:
   label: "Applied AI governance infrastructure"
