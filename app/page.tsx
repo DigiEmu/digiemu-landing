@@ -9,7 +9,7 @@ import {
   CheckCircle2,
   Lock,
 } from "lucide-react";
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
 
 export default function HomePage() {
   const data = getSiteContent();
@@ -17,33 +17,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#eef2f6] text-slate-900">
       <section className="px-6 py-8 md:px-12 lg:px-20">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-3xl bg-white/60 px-5 py-4 shadow-[8px_8px_24px_#cfd6df,-8px_-8px_24px_#ffffff]">
-          <div className="flex items-center gap-3">
-            <div className="relative h-10 w-10 overflow-hidden rounded-2xl">
-              <Image
-  src="/logo-light.webp"
-  alt="DigiEmu Logo"
-  fill
-  sizes="40px"
-  priority
-  className="object-contain"
-/>
-            </div>
-
-            <div>
-              <p className="text-sm font-semibold">{data.site.name}</p>
-              <p className="text-xs text-slate-500">{data.site.tagline}</p>
-            </div>
-          </div>
-
-          <div className="hidden gap-8 text-sm text-slate-600 md:flex">
-            {data.navigation.map((item: any) => (
-              <a key={item.href} href={item.href} className="hover:text-slate-950">
-                {item.label}
-              </a>
-            ))}
-          </div>
-        </nav>
+        <Navbar data={data} />
 
         <div className="mx-auto grid max-w-7xl items-center gap-12 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:py-28">
           <div>

@@ -12,6 +12,8 @@ navigation:
     href: "/core"
   - label: "Proof"
     href: "/proof"
+  - label: "Enterprise"
+    href: "/enterprise"
   - label: "Use Cases"
     href: "/use-cases"
   - label: "Licensing"
