@@ -47,14 +47,14 @@ export default function ProofPage() {
           layer, but concrete verification evidence.
         </p>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-2">
-          <div className="rounded-[2rem] bg-slate-950 p-6 text-white shadow-[16px_16px_40px_#c7ced8,-16px_-16px_40px_#ffffff]">
+        <div className="mt-12 grid min-w-0 gap-6 lg:grid-cols-2">
+          <div className="min-w-0 rounded-[2rem] bg-slate-950 p-6 text-white shadow-[16px_16px_40px_#c7ced8,-16px_-16px_40px_#ffffff]">
             <div className="flex items-center gap-3">
               <CheckCircle2 className="h-6 w-6 text-emerald-300" />
               <h2 className="text-2xl font-semibold">PASS example</h2>
             </div>
 
-            <pre className="mt-6 overflow-x-auto rounded-2xl bg-white/10 p-5 text-sm text-slate-200">
+            <pre className="mt-6 max-w-full overflow-x-auto whitespace-pre-wrap break-words rounded-2xl bg-white/10 p-4 text-xs leading-6 text-slate-200 sm:p-5 sm:text-sm">
     {`{
         "verifier": "digiemu-proof",
         "core": "2.0-draft.4",
