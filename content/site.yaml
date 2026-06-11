@@ -1,7 +1,7 @@
 site:
   name: "DigiEmu"
   tagline: "Deterministic Knowledge Infrastructure"
-  contact_email: "digiemu99@gmail.com"
+  contact_email: "contact@digiemu.ch"
 
 seo:
   title: "DigiEmu – Applied Verification Infrastructure for AI Governance"
@@ -25,7 +25,7 @@ hero:
   text: "DigiEmu Core & Proof proposes a deterministic verification layer for AI governance: reproducible decision states, execution receipts, replay verification and audit-ready evidence bundles."
   primary_cta:
     label: "Discuss research collaboration"
-    href: "mailto:digiemu99@gmail.com"
+    href: "mailto:contact@digiemu.ch"
   secondary_cta:
     label: "View Proof Concept"
     href: "/proof"
@@ -90,7 +90,7 @@ technical_review:
   text: "DigiEmu Core 2.0 draft.4 is positioned as a partner-testable milestone for reviewing deterministic snapshots, replay verification, schema boundaries, conformance reports and audit evidence bundles."
   cta:
     label: "Request technical review package"
-    href: "mailto:digiemu99@gmail.com"
+    href: "mailto:contact@digiemu.ch"
 
 sections:
   problem:
@@ -141,8 +141,8 @@ contact:
   title: "Discuss a BFH / Innosuisse project setup."
   text: "DigiEmu can start as one applied research workflow: one decision boundary, one verification prototype, one evaluation report and one audit-ready evidence bundle."
   cta:
-    label: "digiemu99@gmail.com"
-    href: "mailto:digiemu99@gmail.com"
+    label: "contact@digiemu.ch"
+    href: "mailto:contact@digiemu.ch"
 
 seo_content:
   label: "Applied AI governance infrastructure"

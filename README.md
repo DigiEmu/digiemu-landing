@@ -120,5 +120,5 @@ Branding
 
 # Contact
 ```text
-digiemu99@gmail.com
+contact@digiemu.ch
 ```
