@@ -156,6 +156,12 @@ company:
   short: "BDI"
   text: "Baumgartner Digital Infrastructure develops and operates commercial infrastructure around the DigiEmu verification ecosystem, including Secure tooling, Enterprise adoption, Conformance Testing, Audit Reporting and regulated-sector integration support."
 
+legal:
+  - label: "Impressum"
+    href: "/impressum"
+  - label: "Privacy"
+    href: "/privacy"
+
 seo_content:
   label: "Applied AI governance infrastructure"
   title: "DigiEmu as a candidate applied research project"

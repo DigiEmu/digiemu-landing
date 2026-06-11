@@ -122,7 +122,7 @@ export default function EnterprisePage() {
             </p>
 
             <a
-              href="mailto:digiemu99@gmail.com"
+              href="mailto:contact@digiemu.ch"
               className="mt-8 inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-semibold text-white shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
             >
               Discuss enterprise collaboration
