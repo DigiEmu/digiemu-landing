@@ -8,6 +8,8 @@ seo:
   description: "DigiEmu Core & Proof is a deterministic verification concept for reproducible, verifiable and auditable AI-assisted decision states."
 
 navigation:
+  - label: "Standard"
+    href: "/standard"
   - label: "Core"
     href: "/core"
   - label: "Proof"
@@ -34,6 +36,9 @@ hero:
   download_cta:
     label: "Download Technical Brief"
     href: "/digiemu-core-proof-brief.pdf"
+  onepager_cta:
+    label: "Download Research Onepager"
+    href: "/digiemu-applied-research-onepager.pdf"
 
 verification_flow:
   title: "Snapshot / Replay / Verify"

@@ -58,6 +58,15 @@ export default function HomePage() {
                 {data.hero.download_cta.label}
                 <ArrowRight className="h-4 w-4" />
               </a>
+
+              <a
+                href={data.hero.onepager_cta.href}
+                download
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/70 px-6 py-4 text-sm font-semibold text-slate-950 shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
+              >
+                {data.hero.onepager_cta.label}
+                <ArrowRight className="h-4 w-4" />
+              </a>
             </div>
           </div>
 
