@@ -34,10 +34,10 @@ export default function HomePage() {
               {data.hero.text}
             </p>
 
-            <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <a
                 href={data.hero.primary_cta.href}
-                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-950 px-6 py-4 text-sm font-semibold text-white shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-950 px-6 py-4 text-sm font-semibold text-white shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
               >
                 {data.hero.primary_cta.label}
                 <ArrowRight className="h-4 w-4" />
@@ -45,7 +45,7 @@ export default function HomePage() {
 
               <a
                 href={data.hero.secondary_cta.href}
-                className="inline-flex items-center justify-center rounded-2xl bg-[#eef2f6] px-6 py-4 text-sm font-semibold text-slate-800 shadow-[inset_6px_6px_14px_#cfd6df,inset_-6px_-6px_14px_#ffffff]"
+                className="w-full sm:w-auto inline-flex items-center justify-center rounded-2xl bg-[#eef2f6] px-6 py-4 text-sm font-semibold text-slate-800 shadow-[inset_6px_6px_14px_#cfd6df,inset_-6px_-6px_14px_#ffffff]"
               >
                 {data.hero.secondary_cta.label}
               </a>
@@ -53,7 +53,7 @@ export default function HomePage() {
               <a
                 href={data.hero.download_cta.href}
                 download
-                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 text-sm font-semibold text-slate-950 shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 text-sm font-semibold text-slate-950 shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
               >
                 {data.hero.download_cta.label}
                 <ArrowRight className="h-4 w-4" />
@@ -62,7 +62,7 @@ export default function HomePage() {
               <a
                 href={data.hero.onepager_cta.href}
                 download
-                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/70 px-6 py-4 text-sm font-semibold text-slate-950 shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-white/70 px-6 py-4 text-sm font-semibold text-slate-950 shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
               >
                 {data.hero.onepager_cta.label}
                 <ArrowRight className="h-4 w-4" />

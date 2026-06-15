@@ -5,6 +5,7 @@ const links = [
   { label: "Core", href: "/core" },
   { label: "Proof", href: "/proof" },
   { label: "Enterprise", href: "/enterprise" },
+  { label: "Use Cases", href: "/use-cases" },
   { label: "Licensing", href: "/licensing" },
   { label: "Company", href: "/company" },
   { label: "GitHub", href: "https://github.com/DigiEmu" },

@@ -25,8 +25,8 @@ navigation:
 
 hero:
   eyebrow: "Prepared for BFH / Innosuisse project discussion"
-  title: "Applied verification infrastructure for trustworthy AI decisions."
-  text: "DigiEmu Core & Proof proposes a deterministic verification layer for AI governance: reproducible decision states, execution receipts, replay verification and audit-ready evidence bundles."
+  title: "Deterministic verification infrastructure for AI governance."
+  text: "DigiEmu Core & Proof provides reproducible decision states, execution receipts, replay verification and audit-ready evidence bundles for accountable AI systems."
   primary_cta:
     label: "Discuss research collaboration"
     href: "mailto:contact@digiemu.ch"

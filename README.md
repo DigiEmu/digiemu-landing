@@ -1,19 +1,26 @@
 # DigiEmu Landing Page
 
-Official landing page for **DigiEmu** — a deterministic knowledge infrastructure for reproducible, verifiable and auditable AI decisions.
+Official landing page for **DigiEmu** — an open deterministic verification standard with commercial enterprise infrastructure provided by Baumgartner Digital Infrastructure.
 
 ---
 
 ## Purpose
 
-DigiEmu introduces a verification layer for AI-assisted decisions.
+DigiEmu introduces a verification layer for AI-assisted decisions. Instead of relying on logs or post-hoc explanations, DigiEmu enables:
 
-Instead of relying on logs or post-hoc explanations, DigiEmu enables:
+- Deterministic reconstruction of decision states
+- Independent verification of state transitions
+- Reproducible execution outcomes
+- Auditable AI decision chains
 
-- deterministic reconstruction of decision states  
-- independent verification of state transitions  
-- reproducible execution outcomes  
-- auditable AI decision chains  
+---
+
+## Positioning
+
+**Open Standard. Commercial Infrastructure.**
+
+- **DigiEmu Core** is positioned as a public standard for deterministic AI decision-state verification — transparent, reviewable and interoperable
+- **Baumgartner Digital Infrastructure (BDI)** provides the commercial infrastructure for secure enterprise adoption, conformance testing, audit reporting and regulated-sector integration
 
 ---
 
@@ -22,103 +29,109 @@ Instead of relying on logs or post-hoc explanations, DigiEmu enables:
 ### DigiEmu Core
 Defines deterministic knowledge boundaries:
 
-- Canonical JSON snapshots  
-- Inside-hash vs outside-hash separation  
-- SHA-256 state identity  
-- Reproducible state definition  
+- Canonical JSON snapshots
+- Inside-hash vs outside-hash separation
+- SHA-256 state identity
+- Replay-ready decision states
+- EU AI Act traceability framing
 
 ### DigiEmu Proof
 Verifies execution integrity:
 
-- Replay verification  
-- Receipt continuity  
-- Chain validation  
-- PASS / FAIL verification output  
+- Replay verification
+- Receipt continuity
+- Chain validation
+- PASS / FAIL verification output
+- Tamper detection
 
 ---
 
-## Why It Matters
+## Site Structure
 
-Modern AI systems operate in regulated and high-risk environments.
+```
+app/
+  page.tsx              # Homepage with hero, features, use cases
+  layout.tsx            # Root layout with metadata, footer
+  sitemap.ts            # SEO sitemap
+  robots.ts             # SEO robots.txt
+  globals.css           # Global styles
+  not-found.tsx         # 404 page
 
-DigiEmu enables:
+  # Content pages
+  standard/page.tsx     # Public standard positioning
+  core/page.tsx         # DigiEmu Core concept
+  proof/page.tsx        # PASS/FAIL verification demo
+  enterprise/page.tsx   # Commercial infrastructure
+  use-cases/page.tsx    # Partner validation paths
+  licensing/page.tsx    # Open vs commercial licensing
+  company/page.tsx      # BDI company information
 
-- **Verifiable AI decisions**  
-- **Audit-ready execution evidence**  
-- **Deterministic replay of decisions**  
-- **Alignment with EU AI Act requirements**  
+  # Legal pages
+  impressum/page.tsx    # Legal imprint
+  privacy/page.tsx     # Privacy policy
+
+components/
+  Navbar.tsx            # Responsive navigation with mobile menu
+  Footer.tsx            # Site footer with links
+
+content/
+  site.yaml             # All page content (YAML-driven CMS)
+
+lib/
+  site.ts               # Content loading utilities
+
+public/
+  logo-light.webp       # Brand logo
+  og-core.png           # Open Graph image
+  digiemu-core-proof-brief.pdf      # Technical brief
+  digiemu-applied-research-onepager.pdf  # Research onepager
+```
 
 ---
 
 ## Tech Stack
 
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- YAML-driven content system
-- Vercel deployment
+- **Next.js** (App Router)
+- **TypeScript**
+- **Tailwind CSS** with neumorphic shadow styling
+- **Lucide React** icons
+- **YAML** content system
+- **Vercel** deployment
 
 ---
 
-## Project Structure
-
-```txt
-app/
-  page.tsx
-  layout.tsx
-
-content/
-  site.yaml
-
-lib/
-  site.ts
-
-public/
-  logo-light.webp
-  og-core.png
-  digiemu-core-proof-brief.pdf
-Content System
-```
-
-# All page content is defined in:
-
-```text
-content/site.yaml
-```
-Loaded via:
-```text
-lib/site.ts
-```
-This separates content from UI logic.
-
 ## Local Development
-```text
+
+```bash
 npm install
 npm run dev
 ```
-Open:
-```text
-http://localhost:3000
-```
+
+Open: http://localhost:3000
+
 ---
-Build
-```text
+
+## Build
+
+```bash
 npm run build
 ```
-# Deployment
-
-Recommended:
-
-Vercel
-Domain: https://digiemu.ch
-Branding
 
 ---
-## Built under:
 
-# Baumgartner Digital Infrastructure
+## Deployment
 
-# Contact
-```text
+Recommended: Vercel
+Domain: https://digiemu.ch
+
+---
+
+## Contact
+
 contact@digiemu.ch
-```
+
+---
+
+## Built by
+
+**Baumgartner Digital Infrastructure**

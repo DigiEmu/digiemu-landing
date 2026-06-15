@@ -1,10 +1,14 @@
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+
 export default function CorePage() {
   return (
     <main className="min-h-screen bg-[#eef2f6] px-6 py-16 text-slate-900 md:px-12 lg:px-20">
       <div className="mx-auto max-w-5xl">
-        <a href="/" className="text-sm text-slate-500 hover:text-slate-950">
-          ← Back to DigiEmu
-        </a>
+        <Link href="/" className="text-sm text-slate-500 hover:text-slate-950">
+          <ArrowLeft className="mr-2 inline h-4 w-4" />
+          Back to DigiEmu
+        </Link>
 
         <h1 className="mt-10 text-5xl font-semibold tracking-tight md:text-7xl">
           DigiEmu Core
