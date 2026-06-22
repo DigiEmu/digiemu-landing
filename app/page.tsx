@@ -94,6 +94,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <VirtualMuseumSection data={data} />
+
       <OpenStandardSection data={data} />
       <ProofDemo data={data} />
       <ProjectFit data={data} />
@@ -447,5 +449,34 @@ function InfoPanel({ section }: { section: any }) {
         ))}
       </div>
     </div>
+  );
+}
+
+function VirtualMuseumSection({ data }: { data: any }) {
+  return (
+    <section className="px-6 py-10 md:px-12 lg:px-20">
+      <div className="mx-auto max-w-7xl rounded-[2rem] bg-slate-950 p-8 text-white shadow-[16px_16px_40px_#c7ced8,-16px_-16px_40px_#ffffff] md:p-12">
+        <p className="text-sm uppercase tracking-[0.25em] text-slate-400">
+          {data.museum.label}
+        </p>
+
+        <h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">
+          {data.museum.title}
+        </h2>
+
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+          {data.museum.text}
+        </p>
+
+        <a
+          href={data.museum.cta.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 text-sm font-semibold text-slate-950"
+        >
+          {data.museum.cta.label}
+        </a>
+      </div>
+    </section>
   );
 }

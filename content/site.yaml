@@ -151,6 +151,14 @@ contact:
     label: "contact@digiemu.ch"
     href: "mailto:contact@digiemu.ch"
 
+museum:
+  label: "Interactive Showcase"
+  title: "Explore the DigiEmu Virtual Museum"
+  text: "Experience DigiEmu Core, Proof, Secure, ecosystem architecture and governance concepts through an interactive virtual museum."
+  cta:
+    label: "Launch Virtual Museum"
+    href: "https://pitch.digiemu.ch"
+
 open_standard:
   label: "Open Standard. Commercial Infrastructure."
   title: "Transparent core standard. Professional enterprise adoption."
