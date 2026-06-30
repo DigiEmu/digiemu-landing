@@ -3,20 +3,20 @@ import { ArrowLeft } from "lucide-react";
 
 const cases = [
   {
-    title: "GazaCare AI",
-    text: "Medical AI traceability: decision fingerprint, QR/hash evidence and verifiable recommendation history.",
+    title: "Medical AI",
+    text: "Traceability for clinical decision workflows: decision fingerprint, hash evidence and verifiable recommendation history.",
   },
   {
     title: "Public Sector / CO₂",
     text: "Decision-state reconstruction for public-sector workflows, climate reporting and accountable administrative AI.",
   },
   {
-    title: "TBN",
-    text: "Complementary trust architecture: TBN verifies agent trust; DigiEmu reconstructs decision state.",
+    title: "Agent trust interoperability",
+    text: "Complementary architecture exploration: agent-level trust verification combined with deterministic decision-state reconstruction.",
   },
   {
-    title: "Antifragile.AI",
-    text: "Potential governance interoperability: DigiEmu as deterministic evidence layer for AI approval workflows.",
+    title: "AI governance workflows",
+    text: "Deterministic evidence layer for AI approval and governance workflows in regulated environments.",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function UseCasesPage() {
         </p>
 
         <h1 className="mt-5 text-5xl font-semibold tracking-tight md:text-7xl">
-          Partner-facing validation paths for DigiEmu.
+          Applied validation use cases for DigiEmu.
         </h1>
 
         <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-600">

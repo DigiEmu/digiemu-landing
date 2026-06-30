@@ -111,13 +111,13 @@ export default function EnterprisePage() {
             </p>
 
             <h2 className="mt-4 text-4xl font-semibold tracking-tight text-slate-950">
-              Enterprise pilots and strategic partnerships.
+              Enterprise pilots and applied validation programs.
             </h2>
 
             <p className="mt-6 max-w-4xl text-lg leading-8 text-slate-600">
               DigiEmu Enterprise is intended to support future pilot
-              programs, regulated-sector validation workflows and strategic
-              partner integrations around deterministic AI verification and
+              programs, regulated-sector validation workflows and applied
+              integration evaluation around deterministic AI verification and
               auditability.
             </p>
 
@@ -125,7 +125,7 @@ export default function EnterprisePage() {
               href="mailto:contact@digiemu.ch"
               className="mt-8 inline-flex items-center justify-center rounded-2xl bg-slate-950 px-6 py-4 text-sm font-semibold text-white shadow-[8px_8px_20px_#c2cad4,-8px_-8px_20px_#ffffff]"
             >
-              Discuss enterprise collaboration
+              Discuss enterprise adoption
             </a>
           </div>
 

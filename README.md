@@ -1,6 +1,6 @@
 # DigiEmu Landing Page
 
-Official landing page for **DigiEmu** — an open deterministic verification standard with commercial enterprise infrastructure provided by Baumgartner Digital Infrastructure.
+Landing page for **DigiEmu** — an open deterministic verification standard with commercial enterprise infrastructure provided by Baumgartner Digital Infrastructure.
 
 ---
 
@@ -62,7 +62,7 @@ app/
   core/page.tsx         # DigiEmu Core concept
   proof/page.tsx        # PASS/FAIL verification demo
   enterprise/page.tsx   # Commercial infrastructure
-  use-cases/page.tsx    # Partner validation paths
+  use-cases/page.tsx    # Applied validation use cases
   licensing/page.tsx    # Open vs commercial licensing
   company/page.tsx      # BDI company information
 

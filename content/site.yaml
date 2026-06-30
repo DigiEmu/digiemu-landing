@@ -28,7 +28,7 @@ hero:
   title: "Deterministic verification infrastructure for AI governance."
   text: "DigiEmu Core & Proof provides reproducible decision states, execution receipts, replay verification and audit-ready evidence bundles for accountable AI systems."
   primary_cta:
-    label: "Discuss research collaboration"
+    label: "Discuss applied research"
     href: "mailto:contact@digiemu.ch"
   secondary_cta:
     label: "View Proof Concept"
@@ -80,21 +80,21 @@ project_fit:
 
 validation_tracks:
   label: "Current validation tracks"
-  title: "Concrete partner-facing validation paths."
+  title: "Applied validation use cases for regulated workflows."
   cards:
-    - title: "GazaCare AI"
-      text: "Medical AI traceability: decision fingerprint, QR/hash evidence and verifiable recommendation history."
+    - title: "Medical AI"
+      text: "Traceability for clinical decision workflows: decision fingerprint, hash evidence and verifiable recommendation history."
     - title: "Public Sector / CO₂"
       text: "Decision-state reconstruction for public-sector workflows, climate reporting and accountable administrative AI."
-    - title: "TBN"
-      text: "Complementary trust architecture: TBN verifies agent trust; DigiEmu reconstructs decision state."
-    - title: "Antifragile.AI"
-      text: "Potential governance interoperability: DigiEmu as deterministic evidence layer for AI approval workflows."
+    - title: "Agent trust interoperability"
+      text: "Complementary architecture exploration: agent-level trust verification combined with deterministic decision-state reconstruction."
+    - title: "AI governance workflows"
+      text: "Deterministic evidence layer for AI approval and governance workflows in regulated environments."
 
 technical_review:
   label: "Core 2.0 draft.4"
-  title: "Technical review candidate for BFH / partner feedback."
-  text: "DigiEmu Core 2.0 draft.4 is positioned as a partner-testable milestone for reviewing deterministic snapshots, replay verification, schema boundaries, conformance reports and audit evidence bundles."
+  title: "Technical review candidate for BFH / independent feedback."
+  text: "DigiEmu Core 2.0 draft.4 is positioned as an independently reviewable milestone for evaluating deterministic snapshots, replay verification, schema boundaries, conformance reports and audit evidence bundles."
   cta:
     label: "Request technical review package"
     href: "mailto:contact@digiemu.ch"

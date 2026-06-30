@@ -35,7 +35,7 @@ export default function CompanyPage() {
             <li>• DigiEmu Enterprise</li>
             <li>• Conformance Testing</li>
             <li>• Audit Report Tooling</li>
-            <li>• Strategic Partner Integration</li>
+            <li>• Applied integration evaluation</li>
             <li>• GovTech / Health AI adoption support</li>
           </ul>
         </div>
